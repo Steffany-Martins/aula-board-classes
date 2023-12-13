@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top Idea Contents in the platform">
+    <meta name="keywords" content="HTML, CSS, JavaScript, curses, creators">
+    <meta name="author" content="Created by...">
+
+    <title>Idea Board Website</title>
+
+    <!-- FavIcon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- CDN Bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts CSS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navibation bar setting -->
+
+    <section class="nav">
+        <div class="nav__logo">
+            <img src="images/logo.png" alt="">
+            <p>Idea</p>
+        </div>
+
+        <div class="nav__menu">
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Top Player and Top Blog -->
+
+    <main>
+
+        <section class="player-blog">
+            <!-- Bootstrap: https://getbootstrap.com.br/docs/4.1/utilities/embed/#about-->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/0udjPpXRswE?si=9ha48tLozo3aaVnm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <br>
+            <br>
+            <h2>Caso tenha dúvidas, deixe o seu contato: </h2>
+            <!--Bootstrap: https://getbootstrap.com.br/docs/4.1/components/forms/-->
+            <form>
+                <div class="form-group">
+                  <label for="inputEmail">Endereço de email:</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailInfo" placeholder="Seu email">
+                  <small id="emailInfo" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="textarea">Comentário, sugestão ou dúvida:</label>
+                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="formcheck">
+                  <label class="form-check-label" for="formcheck">Concordo com os termos de serviço</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+
+        </section>
+
+
+        <!-- Content Ends with the following main tag -->
+    </main>
+
+    
+    <footer class="bg-transparent text-center text-black text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3"">
+          ©  Idea - created 2023
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+  
+
+</body>
+
+</html>
